@@ -1,23 +1,18 @@
 PODS:
-  - AFNetworking/NSURLConnection (2.3.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.3.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.3.1)
-  - AFNetworking/Security (2.3.1)
-  - AFNetworking/Serialization (2.3.1)
-  - AFNetworking/UIKit (2.3.1):
-    - AFNetworking/NSURLConnection
-    - AFNetworking/NSURLSession
+  - OLImageView (1.6.0):
+    - OLImageView/Core (= 1.6.0)
+  - OLImageView/Core (1.6.0)
 
 DEPENDENCIES:
-  - AFNetworking/UIKit
+  - OLImageView (from `./`)
+
+EXTERNAL SOURCES:
+  OLImageView:
+    :path: "./"
 
 SPEC CHECKSUMS:
-  AFNetworking: 05b9f6e3aa5ac45bc383b4bb108ef338080a26c7
+  OLImageView: b5f35d6e8710296afdc36898e0ad29c81425b3fe
 
-COCOAPODS: 0.36.3
+PODFILE CHECKSUM: 1e7f3b88dd8752da36f7f3be2360893b87526950
+
+COCOAPODS: 1.7.2
